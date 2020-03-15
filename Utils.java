@@ -68,9 +68,9 @@ class Utils {
 	public static int FOOD_AMOUNT = 0;
 	public static int FOOD = 0;
 
-	public static String nA1 = "You are not Authorized to run this.";
-	public static String nA2 = "Please purchase the script from Elf";
-	public static String wlc = "Welcome to Zulrah by Elf";
+	public static String nA1 = "";
+	public static String nA2 = "";
+	public static String wlc = "";
 
 	public static Prayers magicPrayer() {
 		if (USE_AUGURY) {
