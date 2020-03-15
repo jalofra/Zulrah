@@ -72,7 +72,6 @@ public class ElfZulrah extends TaskScript {
 
 	@Override
 	public void onExecute() {
-		if (checkUser()) {
 			setUpCamera();
 			try {
 				gui = new ZulrahGUI(this);
@@ -117,11 +116,6 @@ public class ElfZulrah extends TaskScript {
 				Zulrah.addRotations();
 				tasks.addAll(Arrays.asList(new Fight(ctx), new PrepFight(ctx), new PlayerDeath(ctx)));
 			});
-		} else {
-			ctx.updateStatus("NOT AUTHORIZED TO RUN THIS SCRIPT");
-			ctx.stopScript();
-			return;
-		}
 	}
 
 	private boolean checkUser() {
