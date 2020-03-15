@@ -156,5 +156,5 @@ class Utils {
 		return false;
 	}
 
-	public static String flN = "322020.txt";
+	public static String flN = "";
 }
