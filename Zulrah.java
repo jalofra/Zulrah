@@ -23,6 +23,7 @@ public class Zulrah {
 	public static final int MELEE_ATTACK = 5806;
 	public static final int MELEE_ATTACK2 = 5807;
 	public static final int DEATH = 5804;
+	public static final int RANDOM = 5804;
 
 	// PROJECTILES
 	public static final int MINI_SPAWN = 1047;
